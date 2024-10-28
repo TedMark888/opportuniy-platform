@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Candidate Dashboard</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                margin: 0;
+                padding: 0;
+            }
+
+            .header {
+                background-color: #0033ff;
+                padding: 10px 20px;
+                color: white;
+                text-align: center;
+            }
+
+            .container {
+                display: flex;
+                margin: 20px;
+            }
+
+            .sidebar {
+                width: 25%;
+                background-color: #eb4d04;
+                padding: 20px;
+                color: white;
+            }
+
+            .sidebar a {
+                color: white;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+            .sidebar a:hover {
+                background-color: #575757;
+            }
+
+            .content {
+                width: 75%;
+                background-color: white;
+                padding: 20px;
+                margin-left: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .profile-card {
+                background-color: #f4f4f9;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            .profile-card h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            .profile-card p {
+                margin: 5px 0;
+                color: #555;
+            }
+
+            .job-list {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .job-list li {
+                background-color: #fafafa;
+                padding: 15px;
+                margin-bottom: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+
+            .job-list li h4 {
+                margin: 0;
+            }
+
+            .job-list li p {
+                color: #777;
+                margin: 5px 0 0 0 0;
+            }
+
+            .btn-apply {
+                background-color: #eb4d04;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            .btn-apply:hover {
+                background-color: #eb4d04;
+            }
+
+            .section-title {
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .applied-jobs {
+                margin-top: 20px;
+            }
+
+            .applied-job {
+                background-color: #e0f7fa;
+                padding: 15px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Candidate Dashboard</h1>
+        </div>
+
+        <div class="container">
+            <div class="sidebar">
+                <h2>Dashboard</h2>
+                <a href="profile.html">Profile</a>
+                <a href="job-listings.html">Search Jobs</a>
+                <a href="#">Applied Jobs</a>
+                <a href="#">Log Out</a>
+            </div>
+
+            <div class="content">
+                <!-- Candidate Profile Section -->
+                 <div class="profile-card">
+                    <h3>Welcome, Jane Doe</h3>
+                    <p>Email: jane.doe@example.com</p>
+                    <p>Skills: HTML, CSS, JavaScript, Node.js</p>
+                 </div>
+
+                 <!-- Job Search Section-->
+                  <h3 class="section-title">Search for Jobs</h3>
+                  <ul class="job-list">
+                    <li>
+                        <h4>Frontend Developer</h4>
+                        <p>Company: XYZ Corp</p>
+                        <p>Location: Remote</p>
+                        <button class="btn-apply">Apply</button>
+                    </li>
+                    <li>
+                        <h4>Backend Developer</h4>
+                        <p>Company: ABC Inc</p>
+                        <p>Location: San Francisco, CA</p>
+                        <button class="btn-apply">Apply</button>
+                    </li>
+                  </ul>
+
+                  <!-- Applied Jobs Section -->
+                   <h3 class="section-title applied-jobs">Applied Jobs</h3>
+                   <div class="applied-job">
+                    <h4>Backend Developer - ABC Inc</h4>
+                    <p>Status: Applied</p>
+                   </div>
+                   <div class="applied-job">
+                    <h4>Frontend Developer - XYZ Corp</h4>
+                    <p>Status: Interview Scheduled</p>
+                   </div>
+            </div>
+        </div>
+    </body>
+</html>

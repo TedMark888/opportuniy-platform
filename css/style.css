@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+/* Profile page container */
+.profile-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+/*Profile info section */
+.profile-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Profile Picture Section */
+.profile-picture {
+    width: 30%;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn-upload {
+    background-color: #eb4d04;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-upload:hover {
+    background-color: #45A049;
+}
+
+/*Profile details section */
+.profile-details {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.profile-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Form styling */
+.profile-form {
+    margin-top: 20px;
+}
+
+.profile-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.profile-form input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Save changes button */
+.btn-save {
+    background-color: #eb4d04;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-save:hover {
+    background-color: #45A049;
+}

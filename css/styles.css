@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header nav {
+    background-color: #0033ff;
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #0033ff;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-buttons .btn {
+    background-color: #eb4d04;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #eb4d04;
+}
+
+ul#job-listings {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul#job-listings li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100px;
+    bottom: 0;
+}

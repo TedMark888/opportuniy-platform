@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Candidate Profile</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- Profile Page Container-->
+         <div class="profile-container">
+            <!-- Header Section -->
+             <div class="profile-header">
+                <h1>My Profile</h1>
+             </div>
+
+             <!-- Profile Information Section-->
+              <div class="profile-info">
+                <div class="profile-picture">
+                    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+                    <button class="btn-upload">Upload New Picture</button>
+                </div>
+
+                <div class="profile-details">
+                    <h2>Jane Doe</h2>
+                    <p>Email: jane.doe@example.com</p>
+
+                    <!-- Form for updating profile-->
+                     <form action="#" method="POST" class="profile-form">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" value="Jane Doe" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="name" value="jane.doe@example.com" required>
+
+                        <label for="skills">Skills:</label>
+                        <input type="text" id="skills" name="skills" value="HTML, CSS, JavaScript" required>
+
+                        <button type="submit" class="btn-save">Save Changes</button>
+                     </form>
+                </div>
+              </div>
+         </div>
+
+    </body>
+</html>
